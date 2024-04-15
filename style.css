@@ -56,3 +56,17 @@ form input.equal{
 form input.operator{
     color: #33ffd8;
 }
+@media screen and (max-width:387px){
+    .calculator{
+        width: 310px;
+        height: 450px;
+    }
+    .calculator form input{
+        width: 40px;
+        height: 40px;
+        font-size: 9px;
+    }
+    form input.equal{
+        width: 100px;
+    }
+}
